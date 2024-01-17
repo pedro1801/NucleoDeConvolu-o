@@ -16,12 +16,19 @@ seguida da soma dos resultados. Esse processo é repetido em toda a imagem, resu
 O projeto faz uso das seguintes bibliotecas:
 
 random: Usada para gerar números aleatórios, possivelmente útil na geração de kernels para convolução.
+
 numpy: Utilizada para manipulação eficiente de matrizes e operações numéricas.
+
 matplotlib.pyplot: Empregada para a exibição de imagens e gráficos.
+
 cv2 (OpenCV): Usada para operações de processamento de imagens, incluindo a aplicação da convolução.
+
 tkinter: Utilizada para a criação de uma interface gráfica que permite ao usuário interagir com o programa.
+
 os: Usada para funcionalidades relacionadas ao sistema operacional, como manipulação de arquivos.
-Modo de Uso
+
+# Modo de Uso
+
 Execute o programa.
 Selecione uma imagem utilizando a interface gráfica.
 Adicione um número para ser o kernel da convolução.
@@ -31,5 +38,7 @@ O efeito da convolução será aplicado à imagem, resultando em uma visualizaç
 # Instalção das bibliotecas
 
 pip install numpy
+
 pip install matplotlib
+
 pip install opencv-python
